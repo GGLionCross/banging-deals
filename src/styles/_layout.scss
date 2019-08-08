@@ -1,0 +1,37 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 32px 64px;
+}
+
+main {
+  padding: 24px 0;
+  .row {
+    justify-content: space-evenly;
+  }
+}
+
+#name-of-item {
+  display: block;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+#photo-of-item {
+  height: 480px;
+}
+
+#description {
+  width: 40%;
+  h1 {
+    margin: 16px 32px;
+  }
+}

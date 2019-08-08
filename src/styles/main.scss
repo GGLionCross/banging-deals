@@ -1,3 +1,5 @@
-body {
-  background-color: lightblue;
-}
+@import "./reset";
+@import "./var";
+@import "./text";
+@import "./theme";
+@import "./layout";
