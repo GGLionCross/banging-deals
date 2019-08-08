@@ -26,12 +26,19 @@ main {
 }
 
 #photo-of-item {
-  height: 480px;
+  align-self: flex-start;
+  width: 40%;
+  max-width: 480px;
 }
 
 #description {
   width: 40%;
+  padding: 16px 32px;
   h1 {
-    margin: 16px 32px;
+    margin-bottom: 16px;
+  }
+  ul {
+    background-color: pink;
+    margin: 0 16px;
   }
 }
