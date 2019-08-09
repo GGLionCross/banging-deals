@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  width: 80%;
+  width: 90%;
   align-items: center;
   margin: 0 auto;
   img {
@@ -31,12 +31,12 @@ main {
 }
 
 #name-of-item {
+  width: 90%;
   display: block;
-  text-align: center;
 }
 
 #item {
-  width: 80%;
+  width: 90%;
   justify-content: space-between;
   margin: 24px 0;
 }
@@ -55,7 +55,7 @@ main {
 }
 
 footer {
-  width: 80%;
+  width: 90%;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
