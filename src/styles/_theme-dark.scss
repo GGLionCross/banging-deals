@@ -1,32 +1,67 @@
+$color-1: #fbe20b; // Super Saiyan Yellow
+$color-2: #494848; // Outer Space Gray
+
+body {
+  background-color: black;
+}
+
 header {
-  background-color: lightgreen;
+  border-bottom: 2px solid white;
   h1 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    color: $color-1;
   }
 }
 
 main {
   background-color: black;
-  box-shadow: inset 0px 5px 5px #888, inset 0px -5px 5px #888;
 }
 
 #name-of-item {
-  color: rgb(105, 105, 105);
+  color: $color-1;
 }
 
 #photo-of-item {
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgb(255, 255, 255);
 }
 
 #description {
-  color: rgb(105, 105, 105);
+  color: white;
   h1 {
-    border-bottom: 2px solid rgb(105, 105, 105);
+    border-bottom: 2px solid white;
+    color: $color-1;
   }
 }
 
 footer {
+  border-top: 2px solid white;
   h1 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    color: $color-1;
   }
+}
+
+.tabs {
+  background: black;
+  border-top: 2px solid white;
+}
+
+.label {
+  background-color: black;
+  color: white;
+}
+
+.label:hover {
+  background: white;
+  color: black;
+}
+
+.input:checked + .label {
+  background: $color-2;
+  color: $color-1;
+}
+
+.panel {
+  background-color: $color-2;
+  color: white;
 }
